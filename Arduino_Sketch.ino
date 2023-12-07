@@ -12,7 +12,7 @@ long centimeters = 0; // this a variable used to calculate the distance using th
 const int TrigPin = 12; // Trigger Pin of Ultrasonic Sensor
 const int echoPin = 11; // Echo Pin of the Ultrasonic Sensor 
 
-// enA & enB shouldn't be connected these are only for tinkercad simulation 
+// enA & enB shouldn't be connected 
 int enA = 13;
 int enB = 8;
 
@@ -101,9 +101,8 @@ void setup() {
   pinMode(motorPin2, OUTPUT);
   pinMode(motorPin3, OUTPUT);
   pinMode(motorPin4, OUTPUT);
-
-  pinMode(enA, OUTPUT);
-  pinMode(enB, OUTPUT);
+  analogWrite(enA, 255);
+  analogWrite(enB, 255);
   
   pinMode(frontSensor1Pin, INPUT);
   pinMode(frontSensor2Pin, INPUT);
