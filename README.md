@@ -93,3 +93,11 @@ To use this code for your sumo robot, follow these steps:
 3. **Place the robot in the sumo arena:** Place the robot 🤖 in the sumo arena ⭕️ and power it on 🔌.
 
 4. **Observe the robot's behavior 👀👀👀:** The robot 🤖
+
+### Project Status 🛑
+
+**Discontinuation Notice:** 
+
+We regret to inform you that development on this project has been discontinued. Due to various challenges encountered during its lifecycle, including hardware issues, transportation limitations, and remote collaboration difficulties, we have made the decision to halt further work on this project. While it provided valuable insights and learning opportunities for our team, we believe it is in the best interest of our resources and goals to focus our efforts elsewhere.
+
+Thank you for your interest in our Arduino Sumo Bot project.
